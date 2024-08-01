@@ -10,7 +10,7 @@ COPY . .
 # RUN /usr/local/bin/python -m pip install --upgrade pip
 
 # RUN pip install requests beautifulsoup4 python-dotenv
-RUN pip install -r /usr/share/nginx/html/mevir-estimacion-inscripcion/App/requirements.txt
+RUN pip install --no-cache-dir -r /usr/share/nginx/html/mevir-estimacion-inscripcion/App/requirements.txt 
 
 
 
